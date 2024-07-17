@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.partenaire img {
+  @apply h-10
+}
+.card{
+  @apply h-[234px] w-[250px] flex flex-col justify-center items-center text-center
+}
+
+button{
+  @apply bg-emerald-500 px-2 rounded-md text-white font-semibold
+}
+.images a img{
+  @apply h-[150px] lg:w-[200px] w-[150px]
+}
